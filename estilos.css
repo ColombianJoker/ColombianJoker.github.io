@@ -1,0 +1,23 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+table td {
+  border: 1px solid #eeeeee;
+}
+
+td {
+  height: 80px;
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.bigright {
+  height: 80px;
+  text-align: right;
+  color: #cccccc;
+  vertical-align: middle;
+}
