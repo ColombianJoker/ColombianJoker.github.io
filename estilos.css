@@ -1,3 +1,16 @@
+body {
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+a,
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: darkblue;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -16,8 +29,18 @@ td {
 }
 
 td.bigright {
-  height: 80px;
+  height: 40px;
   text-align: right;
   color: #cccccc;
   vertical-align: middle;
+}
+
+td.autoria {
+  text-align: center;
+}
+
+table.interna {
+  border: 0px;
+  border-collapse: collapse;
+  border-style: hidden!important;
 }
