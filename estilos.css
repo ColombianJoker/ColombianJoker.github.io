@@ -2,13 +2,14 @@ body {
   font: 14px Helvetica, Arial, sans-serif;
 }
 
-a,
-a:active {
-  color: blue;
+a {
+  color: black;
 }
 
-a:visited {
-  color: darkblue;
+a:visited,
+a:active {
+  color: black;
+  font-weight: bolder;
 }
 
 .center {
@@ -43,4 +44,14 @@ table.interna {
   border: 0px;
   border-collapse: collapse;
   border-style: hidden!important;
+}
+
+table.sinborde {
+  border: 0px solid white;
+  border-collapse: collapse;
+  border-style: hidden!important;
+}
+
+span.desat {
+  color: #cccccc;
 }
